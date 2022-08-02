@@ -58,8 +58,12 @@ header nav ul li a:hover {
 }
 
 footer {
-    font-size: larger;
     text-align: center;
+}
+
+footer img {
+    height: 100px;
+    padding: 30px 0;
 }
 
 
@@ -72,13 +76,13 @@ footer {
 .hero-img img {
     height: 400px;
     margin: 3.5%;
-    box-shadow: 0 0 10px rgba(212, 204, 79, 0.5);
+    box-shadow: 0 0 10px rgba(212, 204, 79, 0.8);
     border-radius: 50px;
 }
 
 .hero-bio h1 {
     font-size: 60px;
-    text-shadow: none;
+    font-style: italic;
     
 }
 .hero-bio {
@@ -93,11 +97,12 @@ footer {
   text-align: center;
   font-size: 50px;
   margin: 20px;
+  font-style: italic;
 }
 
 .title:before,
 .title:after {
-  background-color: rgb(236, 236, 140);;
+  background-color: rgb(255, 255, 34);;
   content: "";
   display: inline-block;
   height: 5px;
@@ -137,41 +142,44 @@ footer {
     height: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.contact {
+.work-info {
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
-}
-.info
-.info ul li {
-    font-size: 22px;
-    display: flex;
-    border-left: 5px solid silver;
-    list-style: none;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(212, 204, 79, 0.8) ;
+    border-radius: 20px;
+    padding: auto;
 }
 
-.info ul li a {
-    padding: 40px;
-    
-}
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 40px 80px;
-    background-color: rgba(255, 255, 255, 0.35);
+
+
+.proj1 {
+    opacity: 0.4;
 }
 
- */
+.proj1:hover {
+    opacity: 1.0;
+}
+
+.proj1 a img {
+    width: 100%;
+}
+
+.proj1 a {
+    color: grey;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* 
+.work-info {
+    box-shadow: 0 0 10px rgba(212, 204, 79, 0.8);
+    border-radius: 20px;
+}
+
+
+*/
+
