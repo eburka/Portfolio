@@ -189,7 +189,8 @@ footer img {
 
     
     header nav ul li a {
-        font-size: 25px;
+        padding: 0 20px;
+        font-size: 30px;
     }
 
     img {
@@ -223,20 +224,27 @@ footer img {
 @media screen and (max-width: 594px) {
     
     header nav ul li a {
-       font-size: 18px;
+       font-size: 15px;
     }
     
+    
+    img {
+        height: 50px;
+    }
+
     .hero-bio h1 {
-        font-size: 30px;
+        font-size: 20px;
+        width: 100%;
     }
 
     .hero-img img {
-        height: 250px
+        height: 200px
     }
 
     .hero-bio p {
         text-align: center;
-        line-height: 1.2;
+        object-fit: cover;
+        line-height: 1;
     }
 
     .project1 {
