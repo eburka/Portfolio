@@ -207,6 +207,7 @@ footer img {
     
     .hero-bio p {
         font-size: 18px;
+        line-height: 1.5;
     }
 
     .title {
@@ -218,13 +219,40 @@ footer img {
         
 }
 
-
-
-
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 594px) {
     
+    header nav ul li a {
+       font-size: 18px;
+    }
+    
+    .hero-bio h1 {
+        font-size: 30px;
+    }
+
+    .hero-img img {
+        height: 250px
+    }
+
+    .hero-bio p {
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .project1 {
+        width: 50%;
+    }
+
+    .info ul {
+        margin: 0;
+    }
+
+    .info ul img {
+        height: 20px;
+    }
 }
+
+
 
 
 
